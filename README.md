@@ -22,19 +22,3 @@ The system requires a MySQL database named `library` with the following tables:
 3. `students` - Registered student data.
 4. `issued_books` - Records of transactions.
 
-## ⚙️ Setup Instructions
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/library-management-system.git](https://github.com/yourusername/library-management-system.git)
-    ```
-2.  **Database Setup:**
-    * Import the `database.sql` file into your MySQL server.
-    * Update the `DriverManager.getConnection` string in `LibraryManagementSystem.java` with your MySQL username and password.
-3.  **Add JDBC Driver:**
-    * Ensure the `mysql-connector-j-x.x.x.jar` is added to your project's build path.
-4.  **Run the application:**
-    * Compile and run `LibraryManagementSystem.java`.
-
-## 📸 Screenshots
-*(Tip: Add screenshots of your Login and Main windows here!)*
-
